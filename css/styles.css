@@ -1416,6 +1416,7 @@ textarea {
   padding-top: 80px;
   padding-left: 40px;
   padding-right: 35px;
+  padding-bottom: 40px;
   background-color: var(--white-color);
   z-index: 999;
 
