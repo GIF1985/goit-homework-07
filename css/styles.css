@@ -582,23 +582,14 @@ textarea {
 }
 
 .section-laptop {
-  display: block;
-  max-width: 100%;
-  height: auto;
   width: 360px;
 }
 
 .section-smartphone {
-  display: block;
-  max-width: 100%;
-  height: auto;
   width: 360px;
 }
 
 .section-technique {
-  display: block;
-  max-width: 100%;
-  height: auto;
   width: 360px;
 }
 
