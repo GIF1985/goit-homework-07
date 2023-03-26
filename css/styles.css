@@ -1473,9 +1473,9 @@ textarea {
   margin-bottom: 284px;
 }
 
-@media only screen and (max-width: 427px) {
+@media only screen and (max-width: 768px) {
   .mobile-menu-box {
-    margin-bottom: 30%;
+    margin-bottom: 10%;
   }
 }
 
