@@ -577,19 +577,10 @@ textarea {
   display: block;
 }
 
-.technique-photo {
-  width: 360px;
-}
-
-.section-laptop {
-  width: 360px;
-}
-
+.technique-photo,
+.section-laptop,
+.section-technique,
 .section-smartphone {
-  width: 360px;
-}
-
-.section-technique {
   width: 360px;
 }
 
