@@ -577,10 +577,7 @@ textarea {
   display: block;
 }
 
-.technique-photo,
-.section-laptop,
-.section-technique,
-.section-smartphone {
+.technique-photo {
   width: 360px;
 }
 
