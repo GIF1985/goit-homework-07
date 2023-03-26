@@ -314,7 +314,7 @@ textarea {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/hero/Darkm@1x.png');
+    url('../images/hero/Darkm@1x.jpg');
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -325,7 +325,7 @@ textarea {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/hero/Darkm@1x.png');
+      url('../images/hero/Darkm@1x.jpg');
   }
 }
 
@@ -335,7 +335,7 @@ textarea {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/hero/Darkm@2x.png');
+      url('../images/hero/Darkm@2x.jpg');
   }
 }
 
@@ -345,7 +345,7 @@ textarea {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/hero/Darkt@1x.png');
+      url('../images/hero/Darkt@1x.jpg');
     padding-top: 111px;
     padding-bottom: 108px;
   }
@@ -359,7 +359,7 @@ textarea {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/hero/Darkt@2x.png');
+      url('../images/hero/Darkt@2x.jpg');
   }
 }
 
@@ -384,7 +384,7 @@ textarea {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../images/hero/officed@2x.png');
+      url('../images/hero/officed@2x.jpg');
   }
 }
 
@@ -820,7 +820,6 @@ textarea {
   flex-wrap: wrap; /* многострочную расстановку блоков по главной оси */
   row-gap: 72px; /*  устанавливает интервал между рядами */
   column-gap: 16px;
-  display: block;
   align-items: center;
   justify-content: center;
 }
@@ -834,12 +833,10 @@ textarea {
 
 @media only screen and (min-width: 768px) {
   .footer .container {
-    padding-left: 108px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
     column-gap: 24px;
     row-gap: 0;
+    align-items: baseline;
+    justify-content: center;
   }
 }
 
@@ -878,6 +875,12 @@ textarea {
   line-height: 1.33;
   text-decoration: none;
   margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo1 {
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1408,6 +1411,10 @@ textarea {
 }
 
 .menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   position: fixed;
   top: 0;
   left: 0;
@@ -1470,13 +1477,6 @@ textarea {
 .mobile-menu-box {
   display: flex;
   flex-direction: column;
-  margin-bottom: 284px;
-}
-
-@media only screen and (max-width: 768px) {
-  .mobile-menu-box {
-    margin-bottom: 10%;
-  }
 }
 
 .mobile-menu .link {
