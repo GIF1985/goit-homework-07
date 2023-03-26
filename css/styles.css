@@ -302,18 +302,18 @@ textarea {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url('../images/people.png');
+    url('../images/hero/Darkm@1x.png');
 }
 
-/* @media (min-device-pixel-ratio: 2) and (max-width: 767px),
-  (min-resolution: 192dpi) and (max-width: 767px),
-  (min-resolution: 2dppx) and (max-width: 767px) {
+@media (min-device-pixel-ratio: 2) and (min-width: 428px),
+  (min-resolution: 192dpi) and (min-width: 428px),
+  (min-resolution: 2dppx) and (min-width: 428px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('');
+      url('../images/hero/Darkm@2x.png');
   }
 }
 
@@ -323,7 +323,7 @@ textarea {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('');
+      url('../images/hero/Darkt@1x.png');
   }
 }
 
@@ -335,7 +335,7 @@ textarea {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('');
+      url('../images/hero/Darkt@2x.png');
   }
 }
 
@@ -345,7 +345,7 @@ textarea {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('');
+      url('../images/hero/officed@1x.jpg');
   }
 }
 
@@ -357,17 +357,33 @@ textarea {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('');
+      url('../images/hero/officed@2x.png');
   }
-} */
+}
 
 .hero-title {
   margin-top: 0;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
   margin-bottom: 48px;
-  font-size: 56px;
-  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+  }
 }
 
 .hero-button {
