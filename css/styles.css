@@ -412,12 +412,12 @@ textarea {
   column-gap: 24px;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .advantages,
   .advantages .techno {
-    flex-wrap: wrap;
+    text-align: justify;
   }
-} */
+}
 
 @media only screen and (min-width: 1200px) {
   .advantages {
@@ -458,7 +458,7 @@ textarea {
 
 @media only screen and (min-width: 768px) {
   .advantages .section-text {
-    width: 339px;
+    width: 340px;
     letter-spacing: 0.02em;
   }
 }
