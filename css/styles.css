@@ -494,13 +494,11 @@ textarea {
   text-align: left;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
 }
 
 @media only screen and (min-width: 768px) {
   .advantages .section-text {
     width: 340px;
-    letter-spacing: 0.02em;
   }
 }
 
