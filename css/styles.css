@@ -801,19 +801,20 @@ textarea {
   justify-content: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .footer .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 550px;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   .footer .container {
     display: flex;
     align-items: flex-start;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .footer .container {
-    column-gap: 24px;
-    row-gap: 72px;
-    align-items: baseline;
-    justify-content: center;
+    max-width: 1100px;
   }
 }
 
@@ -833,9 +834,17 @@ textarea {
   display: block;
 }
 
+@media only screen and (min-width: 768px) {
+  .footer-box {
+    margin-right: auto;
+    text-align: left;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   .footer-box {
     margin-right: auto;
+    text-align: left;
   }
 }
 
@@ -931,13 +940,19 @@ textarea {
 @media only screen and (min-width: 768px) {
   .footer-subscribe {
     text-align: left;
-    margin-bottom: 16px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .footer-subscribe {
     text-align: left;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-form {
+    display: flex;
+    text-align: center;
   }
 }
 
@@ -984,6 +999,7 @@ textarea {
 
 .subscribe-icon {
   fill: var(--accent-color);
+  margin-left: auto;
   margin-left: 16px;
 }
 
@@ -1003,6 +1019,8 @@ textarea {
   .btn-footer {
     margin-top: 0;
     width: 165px;
+    display: flex;
+    align-items: center;
   }
 }
 
