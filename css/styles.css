@@ -1002,7 +1002,7 @@ textarea {
 @media only screen and (min-width: 768px) {
   .btn-footer {
     margin-top: 0;
-    width: 156px;
+    width: 165px;
   }
 }
 
@@ -1010,7 +1010,7 @@ textarea {
   .btn-footer {
     display: flex;
     margin-top: 0;
-    width: 156px;
+    width: 165px;
   }
 }
 
