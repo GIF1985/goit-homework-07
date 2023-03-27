@@ -1010,6 +1010,7 @@ textarea {
   .btn-footer {
     display: flex;
     margin-top: 0;
+    width: 156px;
   }
 }
 
